@@ -1,5 +1,4 @@
 import Particles from "react-tsparticles";
-//import { loadSlim } from "tsparticles-slim"; // loads tsparticles-slim
 import { loadFull } from "tsparticles"; // loads tsparticles
 import { useCallback, useMemo } from "react";
 
@@ -14,6 +13,9 @@ const ParticlesComponent = (props) => {
       background: {
         color: "#000",
       },
+      fullScreen: {
+        zIndex: -1,
+      },
       fpsLimit: 60,
       interactivity: {
         detectsOn: "canvas",
@@ -23,7 +25,7 @@ const ParticlesComponent = (props) => {
       },
       particles: {
         color: {
-          value: "9fafca",
+          value: "f1f1f1",
         },
         number: {
           density: {
@@ -31,18 +33,18 @@ const ParticlesComponent = (props) => {
             area: 1080,
           },
           limit: 0,
-          value: 400,
+          value: 500,
         },
         opacity: {
           animation: {
             enable: true,
-            minimumValue: 0.05,
+            minimumValue: 0.5,
             speed: 1,
             sync: false,
           },
           random: {
             enable: true,
-            minimumValue: 0.05,
+            minimumValue: 0.1,
           },
           value: {
             min: 0.3,
