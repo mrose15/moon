@@ -2,7 +2,7 @@ import React from "react";
 import ParticlesComponent from "./components/Particles";
 import MoonComponent from "./components/Moon";
 
-import "./App.css";
+import "./index.css";
 
 const App = () => {
   return (
