@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 
 const MoonComponent = () => {
   const unixDate = Math.floor(Date.now() / 1000);
-  const url = `https://api.farmsense.net/v1/moonphases/?d=${unixDate}`;
+  const url = `//api.farmsense.net/v1/moonphases/?d=${unixDate}`;
 
   const getPhaseName = () => {
     axios
