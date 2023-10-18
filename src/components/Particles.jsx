@@ -39,7 +39,7 @@ const ParticlesComponent = (props) => {
           animation: {
             enable: true,
             minimumValue: 0.5,
-            speed: 1,
+            speed: 0.5,
             sync: false,
           },
           random: {
