@@ -1,0 +1,15 @@
+.crater {
+  top: 30px;
+  left: 20px;
+  content: "";
+  position: absolute;
+}
+
+.crater.light {
+  background-color: pink;
+}
+
+/* Crater names */
+.crater#Tycho {
+  background-color: #f8fafc;
+}

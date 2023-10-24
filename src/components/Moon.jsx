@@ -1,6 +1,9 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
 
+import Crater from "./Crater";
+import Ray from "./Ray";
+
 import "./Moon.css";
 
 const MoonComponent = () => {
@@ -24,11 +27,15 @@ const MoonComponent = () => {
   const [phaseNow, getPhase] = useState("");
 
   return (
-    <div className="moon__container flex flex-col justify-center items-center">
-      <div className="moon bg-stone-300 h-80 w-80 rounded-full shadow-3xl relative">
-        <div className="crater bg-stone-600 h-10 w-10 rounded-full absolute"></div>
+    <div className="moon__container flex flex-col justify-center items-center h-screen">
+      <div
+        className={`moon ${phaseNow
+          .replace(" ", "-")
+          .toLowerCase()} bg-slate-300 h-80 w-80 rounded-full shadow-3xl relative`}
+      >
+        <Crater class="bg-slate-100 rounded-full h-5 w-5" id="Tycho" />
       </div>
-      <h1 className="font-sans text-center text-stone-50 text-5xl">
+      <h1 className="font-sans text-center text-slate-50 text-5xl">
         {phaseNow}
       </h1>
     </div>
