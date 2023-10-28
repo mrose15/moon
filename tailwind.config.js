@@ -13,6 +13,7 @@ export default {
         sans: ['"Titillium Web"', ...defaultTheme.fontFamily.sans],
       },
       boxShadow: {
+        md: "0px 0px 6px 4px rgb(0 0 0 / 0.1);",
         "3xl": "0 0 60px 0 rgba(255, 255, 255, 0.8);",
       },
     },

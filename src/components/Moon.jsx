@@ -31,11 +31,15 @@ const MoonComponent = () => {
       <div
         className={`moon ${phaseNow
           .replace(" ", "-")
-          .toLowerCase()} bg-slate-300 h-80 w-80 rounded-full shadow-3xl relative`}
+          .toLowerCase()} bg-slate-200 h-80 w-80 rounded-full shadow-3xl relative`}
       >
-        <Crater class="bg-slate-100 rounded-full h-5 w-5" id="Tycho" />
+        <Crater
+          class="shadow-md bg-slate-100 rounded-full h-3 w-3"
+          id="Tycho"
+        />
+        <Ray class="bg-slate-100 h-1 w-3" />
       </div>
-      <h1 className="font-sans text-center text-slate-50 text-5xl">
+      <h1 className="mt-4 font-sans text-center text-slate-50 text-5xl">
         {phaseNow}
       </h1>
     </div>

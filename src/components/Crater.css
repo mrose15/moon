@@ -1,15 +1,66 @@
-.crater {
-  top: 30px;
-  left: 20px;
-  content: "";
-  position: absolute;
-}
-
-.crater.light {
-  background-color: pink;
-}
-
 /* Crater names */
 .crater#Tycho {
   background-color: #f8fafc;
+  left: 50%;
+  top: 80%;
+}
+
+.crater#Tycho:after {
+  content: "";
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-35%, -60%);
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.crater#Plato {
+  background-color: #f8fafc;
+  left: 50%;
+  top: 80%;
+}
+
+.crater#Copernicus {
+  background-color: #f8fafc;
+  left: 50%;
+  top: 80%;
+}
+
+.crater#Aristarchus {
+  background-color: #f8fafc;
+  left: 50%;
+  top: 80%;
+}
+
+.crater#Kepler {
+  background-color: #f8fafc;
+  left: 50%;
+  top: 80%;
+}
+
+.crater#Grimaldi {
+  background-color: #f8fafc;
+  left: 50%;
+  top: 80%;
+}
+
+.crater#Byrgius {
+  background-color: #f8fafc;
+  left: 50%;
+  top: 80%;
+}
+
+.crater#Langrenus {
+  background-color: #f8fafc;
+  left: 50%;
+  top: 80%;
+}
+
+.crater#Stevinus {
+  background-color: #f8fafc;
+  left: 50%;
+  top: 80%;
 }
