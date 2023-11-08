@@ -8,3 +8,7 @@
   border-radius: 50%;
   /*box-shadow: 0 0 45px 10px rgba(255, 255, 255, 0.54), inset 0 0 10px 0 #d3bfbf, , inset -100px 10px 80px 20px #080707;*/
 }
+
+.moon {
+  @apply bg-slate-200 h-80 w-80 rounded-full shadow-3xl relative;
+}
