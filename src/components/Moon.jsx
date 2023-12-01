@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
 import Tycho from "./Craters/Tycho";
+import Procellarum from "./Oceanus/Procellarum";
 
 import "./Moon.css";
 
@@ -28,6 +29,7 @@ const MoonComponent = () => {
     <div className="moon__container flex flex-col justify-center items-center h-screen">
       <div className={`moon ${phaseNow.replace(" ", "-").toLowerCase()}`}>
         <Tycho />
+        <Procellarum />
       </div>
       <h1 className="mt-4 font-sans text-center text-slate-50 text-5xl">
         {phaseNow}

@@ -3,7 +3,10 @@ import Ray from "../Ray";
 
 const Aristarchus = () => {
   return (
-    <Crater class="shadow-md bg-slate-100 rounded-full h-3 w-3" id="Tycho">
+    <Crater
+      class="shadow-md bg-slate-100 rounded-full h-3 w-3"
+      id="Aristarchus"
+    >
       <Ray class="bg-slate-100 h-1 w-3" />
     </Crater>
   );
